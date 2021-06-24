@@ -25,8 +25,10 @@ html {
 }
 
 body{
+    display: flex;
     /*16px (User Agent) === 1.75rem*/
     height: 100vh; /* view height == 100% da tela*/
+
     background: var(--background);
 }
 
@@ -78,7 +80,7 @@ button, .button{
     cursor: pointer;
 }
 
-button.hover, .button.hover{
+button:hover, .button:hover{
     filter: brightness(1.2);
 }
 
@@ -98,10 +100,10 @@ button.outlined,
 
 .content header{
     width: 80%;
+    margin: 3.5rem auto;
 }
 
 .content header img{
     width: 16.7rem;
-    margin: 3.5rem auto;
-    
+
 }

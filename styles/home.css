@@ -16,6 +16,7 @@ header{
 #bg{
     grid-area: left;
     background: url('/assets/home-bg-img.svg') no-repeat top/contain;
+    background-position-x: -10rem;
 }
 
 main{
@@ -23,10 +24,11 @@ main{
 
     display:flex;
     align-items: center;
+    margin-top: -10rem;
 }
 
 main .container{
-    width: min(36.3rem 100%);
+    width: min(36.3rem, 100%);
 }
 
 main h2{
@@ -40,7 +42,7 @@ main h2{
 
 
 input {
-    border: 0.2rem solid var(--gray-blue);
+    border: 0.2rem solid var(--grey-blue);
     padding:0 1.6rem;
 
 }
@@ -48,4 +50,16 @@ input {
 input, button, .button {
     width: 100%;
     margin-bottom: 1.8rem;
+}
+
+/*separator line*/
+
+.separator{
+
+}
+
+.separator div:nth-child(1),
+.separator div:nth-child(3){
+    background: var(--gray-blue);
+    width:10px;
 }
