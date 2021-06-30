@@ -11,6 +11,8 @@
         <!-- Styles - CSS -->
         <link rel="stylesheet" href="styles/global.css">
         <link rel="stylesheet" href="styles/room.css">
+        <link rel="stylesheet" href="styles/modal.css">
+
 
 
         <!-- Fonts -->
@@ -57,7 +59,7 @@
                         <div class="question-wrapper">
                             <div class="question-content">
                                 <div class="user">
-                                    <img src="/assets/avatar.svg" alt="avatar">
+                                    <img src="/assets/user.svg" alt="avatar">
                                 </div>
                                 <div class="question">
                                     <p>Qual a diferença entre Const, Var e Let no JavaScript</p>
@@ -70,13 +72,89 @@
                                 </a>
                                 <a href="#" class="delete">
                                     <img src="/assets/trash.svg" alt="deletar">
-                                    Excluir.
+                                    Excluir
                                 </a> 
+                            </div>
+                        </div>
+                        <div class="question-wrapper">
+                            <div class="question-content">
+                                <div class="user">
+                                    <img src="/assets/user.svg" alt="avatar">
+                                </div>
+                                <div class="question">
+                                    <p>O que é JavaScript ???</p>
+                                </div>
+                            </div>
+                            <div class="action">
+                                <a href="#" class="check">
+                                    <img src="/assets/check.svg" alt="Ok lida">
+                                    Marcar como lida
+                                </a>
+                                <a href="#" class="delete">
+                                    <img src="/assets/trash.svg" alt="deletar">
+                                    Excluir
+                                </a> 
+                            </div>
+                        </div>
+                        <div class="question-wrapper">
+                            <div class="question-content">
+                                <div class="user">
+                                    <img src="/assets/user.svg" alt="avatar">
+                                </div>
+                                <div class="question">
+                                    <p>Qual a funcionalidade do assync/await no JavaScript no NodeJs ???? Poderiam exemplificar algo para melhor entendimento por gentileza ???</p>
+                                </div>
+                            </div>
+                            <div class="action">
+                                <a href="#" class="check">
+                                    <img src="/assets/check.svg" alt="Ok lida">
+                                    Marcar como lida
+                                </a>
+                                <a href="#" class="delete">
+                                    <img src="/assets/trash.svg" alt="deletar">
+                                    Excluir
+                                </a> 
+                            </div>
+                        </div>
+                        <div class="question-wrapper read">
+                            <div class="question-content">
+                                <div class="user">
+                                    <img src="/assets/user.svg" alt="avatar">
+                                </div>
+                                <div class="question">
+                                    <p>O que é TypeScript ???</p>
+                                </div>
+                            </div>
+                            <div class="action">
+                                <a href="#" class="check">
+                                    <img src="/assets/check.svg" alt="Ok lida">
+                                    Pergunta Lida.
+                                </a>
                             </div>
                         </div>
                     </div>
                 </section>
             </main>
+        </div>
+
+
+
+        <!------ MODAL ------>
+        <div class="modal-wrapper">
+            <div class="modal">
+                <h2>Excluir Pergunta</h2>
+                <p>Tem Certeza que você deseja excluir esta pergunta?</p>
+                <form action="#">
+                    <label class="sr-only" for-id="password">Digite sua senha admin</label>
+                    <input type="password" id="password" name="password" placeholder="Digite sua senha">
+
+                    <div class="buttons">
+                        <div class="button grey">Cancelar</div>
+                        <button class="red">Sim, Excluir</button>
+                    </div>
+                    
+                </form>
+            </div>
         </div>
     </body>
 </html>
