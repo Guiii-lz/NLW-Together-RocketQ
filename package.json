@@ -1,0 +1,29 @@
+{
+  "name": "nlw-rocketq",
+  "version": "1.0.0",
+  "description": "Projeto desenvolvido na Next Level Week da RocketSeat, desenvolvido para gerenciar perguntas",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "nodemon .",
+    "init-db":"node src/db/init.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Guiii-lz/NLW-Together-RocketQ.git"
+  },
+  "author": "Guilherme Luiz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Guiii-lz/NLW-Together-RocketQ/issues"
+  },
+  "homepage": "https://github.com/Guiii-lz/NLW-Together-RocketQ#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "sqlite": "^4.0.23",
+    "sqlite3": "^5.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.9"
+  }
+}
