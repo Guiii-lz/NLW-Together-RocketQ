@@ -14,6 +14,11 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - Express
 - SQLite
 
+## Para Rodar
+
+- npm run init-db
+- npm start
+
 ## Contatos
 
 ###### Guilherme Luiz
